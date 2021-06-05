@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: 'Iceberg', cursive;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* --navbar section-- */
+
+#navbar {
+    padding:0;
+    margin:0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#navbar li{
+    display: inline;
+    margin-right: 1.2em;
+    font-size: 1.2em;
+    list-style: none;
+}
+
+
+h2{
+text-align: center;
+margin: 10px;
+}
+
+/* --main content-- */
+
+.homepage-content p{
+    padding:12px;
+    text-align: center;
+}
+
+
+.homepage-content p span{
+    animation: blinker 1.7s linear infinite;
+    color: #0d5c8d;
+    font-weight: bold;
+    }
+    @keyframes blinker {  
+    50% { opacity: 0; }
+    }
+
+
+.homepage-content h3{
+    padding:12px;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-align: center;
+    color: darkcyan;
+}
+
+.homepage-content a{
+    color:#0d5c8d;
+}
+
+.related-cities{
+    list-style-position: inside;
+    text-align: center;
+    margin:10px 10px;
+}
+
+.related-cities #nl{
+    color: orange;
+}
+
+.related-cities #e{
+    color: red;
+}
+
+.related-cities #d{
+    color: rgb(179, 179, 7);
+}
+
+.related-cities #gb{
+    color: rgb(160, 1, 1);
+}
+
+.related-cities #i{
+    color: rgb(3, 78, 3);
+}
+
+
+/* ----CITIES---- */
+.cities-range {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.cities-range img{
+    width: 600px;
+}
+.cities-range span{
+    color:black;
+    font-weight: 600;
+    letter-spacing:2px;
+    font-size: 1.2em;
+}
+
+
+/* ---ABOUT PAGE--- */
+
+#about {
+    color: rgb(87, 5, 112);
+}
+
+.about-page {
+    margin-top: 20px;
+}
+
+.about-page p{
+    padding: 10px;
+}
+
+#vizyon-head, #misyon-head{
+    color:rgb(199, 126, 31);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
